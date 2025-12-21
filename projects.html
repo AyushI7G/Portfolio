@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayushi Gupta - Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">^_^</div>
+    <div class="menu-toggle">&#9776;</div>
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="specializations.html">Specializations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="projects" id="projects">
+    <div class="card">
+      <a href="https://github.com/agbla17/Mune-Music-Streaming-App" target="_blank">
+        <img src="mune.png" alt="Project 1">
+        <h3>Mune</h3>
+        <p>A music streaming platform using PHP, HTML, CSS, and PostgreSQL, XAMPP.</p>
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="https://agbla17.github.io/NextGen-Inverters/" target="_blank">
+        <img src="website.png" alt="Project 2">
+        <h3>NextGen Inverters</h3>
+        <p>A visually engaging designs to support any brand’s marketing initiatives. Used HTML and CSS.</p>
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="https://github.com/agbla17/Ticket-Management-System" target="_blank">
+        <img src="ticket.gif" alt="Project 3">
+        <h3>TicketApp</h3>
+        <p>A class-based ticket prioritization and dynamic fare calculation using data structures for Train Booking.</p>
+      </a>
+    </div>
+
+      <div class="card">
+      <a href="https://ayushigupta18apr.wixsite.com/algorithm-visualizer" target="_blank">
+        <img src="Wix.png" alt="Project 5">
+        <h3>Algorithm Visualizer</h3>
+        <p>Visualizes sorting algorithms with a clean, intuitive Wix front-end.</p>
+      </a>
+    </div>
+
+      <div class="card">
+      <a href="https://hellobooksintern.rf.gd/" target="_blank">
+        <img src="Hello_Books_AI.png" alt="Project 4">
+        <h3>Hello Books AI</h3>
+        <p>A bookkeeping website using WordPress in my first year.</p>
+      </a>
+    </div>
+  </section>
+
+  <footer id="contact">
+    &copy; 2025 Ayushi Gupta. All rights reserved.
+  </footer>
+
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector("nav ul");
+    toggle.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>
